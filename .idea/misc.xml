@@ -3,10 +3,13 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
+        <entry key="..\:/Dev/Android/Desafio04/app/src/main/res/layout/activity_main.xml" value="0.36666666666666664" />
+        <entry key="..\:/Dev/Android/Desafio04/app/src/main/res/layout/custom_listview.xml" value="0.36666666666666664" />
         <entry key="..\:/Dev/projects/android/app/src/main/res/drawable-v24/ic_launcher_foreground.xml" value="0.3828125" />
         <entry key="..\:/Dev/projects/android/app/src/main/res/drawable/ic_launcher_background.xml" value="0.3828125" />
         <entry key="..\:/Dev/projects/android/app/src/main/res/mipmap-anydpi-v26/ic_launcher.xml" value="0.3828125" />
         <entry key="..\:/Dev/projects/android/app/src/main/res/mipmap-anydpi-v26/ic_launcher_round.xml" value="0.3828125" />
+        <entry key="..\:/Users/caiov/AppData/Local/Android/Sdk/platforms/android-31/data/res/layout/activity_list_item.xml" value="0.3663949275362319" />
         <entry key="..\:/Users/caiov/Google Drive/Developer/Android/Desafio04/app/src/main/res/layout/activity_main.xml" value="0.1388888888888889" />
       </map>
     </option>

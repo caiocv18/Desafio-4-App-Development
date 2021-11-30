@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="141dp"
+        android:layout_gravity="center">
+
+        <ImageView
+            android:id="@+id/iv_Item"
+            android:layout_width="156dp"
+            android:layout_height="match_parent"
+            tools:ignore="MissingConstraints" />
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <TextView
+                android:id="@+id/tv_title"
+                android:layout_width="236dp"
+                android:layout_height="31dp"
+                android:layout_margin="10dp"
+                android:textSize="24dp"
+                tools:layout_editor_absoluteX="168dp"
+                tools:layout_editor_absoluteY="1dp" />
+
+            <TextView
+                android:id="@+id/tv_price"
+                android:layout_width="104dp"
+                android:layout_height="24dp"
+                android:layout_below="@+id/tv_title"
+                android:layout_marginTop="2dp"
+                android:layout_marginBottom="2dp"
+                tools:layout_editor_absoluteX="175dp"
+                tools:layout_editor_absoluteY="61dp" />
+
+            <TextView
+                android:id="@+id/tv_date"
+                android:layout_width="104dp"
+                android:layout_height="24dp"
+                android:layout_below="@+id/tv_price"
+                android:layout_margin="2dp"
+                tools:layout_editor_absoluteX="175dp"
+                tools:layout_editor_absoluteY="83dp" />
+
+            <TextView
+                android:id="@+id/tv_place"
+                android:layout_width="104dp"
+                android:layout_height="24dp"
+                android:layout_below="@+id/tv_date"
+                android:layout_margin="2dp"
+                tools:layout_editor_absoluteX="175dp"
+                tools:layout_editor_absoluteY="105dp" />
+
+        </RelativeLayout>
+
+
+
+    </LinearLayout>
+
+</LinearLayout>

@@ -1,15 +1,6 @@
 package br.com.desafio04
 
-import android.icu.text.DateFormat
-import android.media.Image
+import android.icu.text.SimpleDateFormat
 
-class Item() {
-    //val image : Image = TODO()
-    var title : String = "empty"
-    var date : DateFormat = DateFormat.getDateInstance()
-    var place : String = "anywhere"
-
-    init {
-        //this.image = image
-    }
+class Item(var title : String, var price : Double, var place : String, var date : String) {
 }
